@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-header{
+  font-family: 'Nova Square', cursive;
+  color: rgb(3, 5, 106);
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  display: flex;
+  padding: 2%;
+  justify-content: center;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-header>div{
+  border: 2px solid goldenrod;
+  background: radial-gradient(ellipse farthest-corner at right bottom, #f7dc64 0%, #FDB931 18%, #f3b93d 40%, #dea726 50%, transparent 80%),
+      radial-gradient(ellipse farthest-corner at left top, #f6cd2a 0%, #f6c53e 18%, #D1B464 30%, #a87f20 53.5%, #9b700b 90%);
+  padding: 2%;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.App-header>div>h1{
+  align-self: flex-start;
+  
+}
+.line{
+  height: 2px;
+  width: 70%;
+  background-color: goldenrod;
+  display: flex;
+  align-self: flex-end;
+}
+.App-header>div>p {
+  
+  align-self: flex-end;
+}
+.grid-text{
+  display: flex;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 980px) {
+  .grid-text {
+    flex-direction: column;
   }
 }
