@@ -41,6 +41,16 @@
   flex-direction: row;
 }
 
+/* scroll */
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
 @media only screen and (max-width: 980px) {
   .grid-text {
     flex-direction: column;
