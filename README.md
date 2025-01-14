@@ -18,19 +18,9 @@ Crypto Tracker is a project that shows real-time prices of the top 100 cryptocur
 
 ## How to Run
 
-Clone the repository:
-
-git clone https://github.com/your-username/crypto-tracker.git
-cd crypto-tracker
-
-Install dependencies:
-
-npm install
-
-Start the app:
-
-npm start
-
-Open:  
-
-http://localhost:3000
+```bash
+$ git clone ...            # clone this project to your local machine
+$ cd Crypto-daily-tracker  # go to project folder
+$ npm install              # install dependencies
+$ npm run start            # run it locally
+```
