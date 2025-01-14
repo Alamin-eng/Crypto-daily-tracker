@@ -16,6 +16,13 @@ Crypto Tracker is a project that shows real-time prices of the top 100 cryptocur
 
 - API: Free cryptocurrency data API.
 
+### Contact
+If you have any feedback or would like to discuss this project, feel free to reach out:
+
+Email: mohammedalaminruben@gmail.com  
+
+LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/mohammad-a-846376220/)
+
 ## How to Run
 
 ```bash
